@@ -1,0 +1,17 @@
+broker: localhost:9092
+topic: myTopic
+messages:
+  - topic: myTopic
+    key: key
+    value: value
+    header:
+      foo: bar
+  - key: key1
+    value: value1
+    header:
+      foo: bar
+  - topic: yourTopic
+    key: key
+    value: value
+    header:
+      foo: bar
