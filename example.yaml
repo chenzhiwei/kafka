@@ -4,14 +4,14 @@ messages:
   - topic: myTopic
     key: key
     value: value
-    header:
+    headers:
       foo: bar
   - key: key1
     value: value1
-    header:
+    headers:
       foo: bar
   - topic: yourTopic
     key: key
     value: value
-    header:
+    headers:
       foo: bar

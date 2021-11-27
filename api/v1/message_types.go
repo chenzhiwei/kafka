@@ -10,5 +10,5 @@ type Message struct {
 	Topic   string            `json:"topic,omitempty"`
 	Key     string            `json:"key,omitempty"`
 	Value   string            `json:"value"`
-	Headers map[string]string `json:"header,omitempty"`
+	Headers map[string]string `json:"headers,omitempty"`
 }
