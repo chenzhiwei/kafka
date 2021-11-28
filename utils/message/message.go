@@ -24,10 +24,10 @@ func ToKafkaMessages(data *v1.Data) ([]kafka.Message, error) {
 		kMessage.Key = []byte(message.Key)
 		kMessage.Value = []byte(message.Value)
 
-		for k, v := range message.Headers {
+		for _, header := range message.Headers {
 			kMessage.Headers = append(kMessage.Headers, kafka.Header{
-				Key:   k,
-				Value: []byte(v),
+				Key:   header.Key,
+				Value: []byte(header.Value),
 			})
 		}
 

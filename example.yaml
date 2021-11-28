@@ -5,13 +5,18 @@ messages:
     key: key
     value: value
     headers:
-      foo: bar
+      - key: foo
+        value: bar
+      - key: foo
+        value: baz
   - key: key1
     value: value1
     headers:
-      foo: bar
+      - key: foo
+        value: bar
   - topic: yourTopic
     key: key
     value: value
     headers:
-      foo: bar
+      - key: foo
+        value: bar
