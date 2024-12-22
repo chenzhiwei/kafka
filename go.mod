@@ -15,6 +15,6 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/xdg/scram v1.0.5 // indirect
 	github.com/xdg/stringprep v1.0.3 // indirect
-	golang.org/x/crypto v0.0.0-20220622213112-05595931fe9d // indirect
-	golang.org/x/text v0.3.8 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 )
